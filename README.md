@@ -33,10 +33,10 @@ apm install atom-beautify atom-ternjs autoclose-html color-picker css-comb edito
 
 To get the installed packages, run:
 ```
-apm list | grep "/home/simon" -A 25 | grep -v "/home/simon" | awk '{sub(/@.*/,""); print}' | awk '{sub(/.* /,""); print}'
+apm list | grep `eval echo ~$username` -A 100 | grep -v `eval echo ~$username` | awk '{sub(/@.*/,""); print}' | awk '{sub(/.* /,""); print}'
 ```
 
 To get the installed packages with space instead of new line, run:
 ```
-apm list | grep "/home/simon" -A 25 | grep -v "/home/simon" | awk '{sub(/@.*/,""); print}' | awk '{sub(/.* /,""); print}' | sed '{:q;N;s/\n/ /g;t q}'
+apm list | grep `eval echo ~$username` -A 100 | grep -v `eval echo ~$username` | awk '{sub(/@.*/,""); print}' | awk '{sub(/.* /,""); print}' | sed '{:q;N;s/\n/ /g;t q}'
 ```
