@@ -19,14 +19,13 @@ A list of my favorite atom packages:
 - minimap-highlight-selected
 - monokai-seti
 - pigments
-- react
 - react-snippets
 - seti-ui
 
 ## Install packages
 To install these packages, run:
 ```
-apm install atom-beautify atom-ternjs autoclose-html color-picker css-comb editor-stats goto highlight-line highlight-selected js-hyperclick language-babel linter linter-eslint merge-conflicts minimap minimap-highlight-selected monokai-seti pigments react react-snippets seti-ui
+apm install atom-beautify atom-ternjs autoclose-html color-picker css-comb editor-stats goto highlight-line highlight-selected js-hyperclick language-babel linter linter-eslint merge-conflicts minimap minimap-highlight-selected monokai-seti pigments react-snippets seti-ui
 ```
 
 ## Get your installed packages
